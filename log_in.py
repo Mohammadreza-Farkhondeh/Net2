@@ -1,6 +1,7 @@
-
+username = input('Username: ')
+password = input('Password: ')
 url = 'https://net2.sharif.edu/login'
-payload  = {'username': 'matin.mirzaei926', 'password': 'Matin926'}
+payload  = {'username': 'username', 'password': 'passowrd'}
 
 
 def logIn_requests():
